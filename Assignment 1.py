@@ -11,7 +11,7 @@ rate = float(input("Enter the interest rate as a number, not as a %: "))
 ammortization = int(input("Enter the ammortization period (years): "))
 
 #Declaring the denominator for the exponent when calculating the r-amount of different period
-#Delcaring the list that will contain the different r-values for the payment function,  to be indexed later
+#Declaring the list that will contain the different r-values for the payment function,  to be indexed later
 den_values = (12,24,26,52)
 r_values = []
 
